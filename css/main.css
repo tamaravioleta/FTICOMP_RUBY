@@ -1,0 +1,203 @@
+.section{
+    position: relative;
+    overflow: hidden;
+    background: url(../images/bg.png);
+    width: 1520px;
+    height: 400px;
+}
+.regular-content{
+    font-family: 'WeblySleek UI';
+    margin-top: -70px;
+    margin-left: -150px;
+    }
+header{
+    text-transform: uppercase;
+    color: #007ee5;
+}
+header h3 {
+  padding-top: 0px;
+  color: #ffF;
+  font-size: 36px;
+}
+
+.absolute-image-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.max-width-100{
+    max-width: 100%;
+}
+.text--light{
+    font-family: 'weblysleek_uilight';
+}
+.text--semi-bold{
+    font-family: 'weblysleek_uisemibold';
+}
+.padding-top-bottom-65{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.position--realtive{
+    position: relative;
+}
+.position--absolute{
+    position: absolute;
+}
+
+.buttuon-container{
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+}
+.buttuon-container .btn-wraper{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.top-0{
+    top: 0;
+} 
+.left-0{
+    left: 0;
+}
+.full-width{
+    width: 100%;
+}
+.full-height{
+    height: 100%;
+}
+.bg--position-center{
+    background-position: center;
+}
+.no-repeat{
+    background-repeat: no-repeat;
+}
+.bg-cover{
+    background-size: cover;
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.lead{
+    font-size: 21px;
+    font-family: 'weblysleek_uisemilight';
+    color: rgb(99, 99, 99);
+    line-height: 1.429;
+}
+.btn-icon-container{
+    display: table;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #007ee5;
+}
+.btn-icon-container-lg{
+    display: table;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #007ee5;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box
+}
+.btn-icon-container-lg i{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #007ee5;
+    font-size: 28px;
+    margin-left: 3px;
+}
+.line-height-btn-lg{
+    line-height: 100px;
+}
+.btn-icon-container i{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #007ee5;
+    font-size: 18px;
+}
+.btn{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 54px;
+}
+.btn-theme{
+    background-color: #007ee5;
+    color: #fff;
+    border-color: transparent;
+    border:0px;
+}
+.btn-rounded-corner{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.back-top-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #007de4;
+}
+.btn-icon{
+    margin-left: 5px;
+    color: white;
+}
+.btn-icon i{
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.btn-icon-text-container{
+    float: left;
+}
+.btn-icon-text{
+    line-height: 40px;
+}
+.btn{
+    transition: all .5s ease-in;
+}
+.btn-icon-text-lg{
+    line-height: 106px;
+}
+
+@media (max-width: 768px)
+{
+
+    .absolute-image-container{
+        display: none;
+    }
+}
+.btn-default {
+  margin-left: 550px;
+  margin-top: 250px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.btn-default:hover{
+    background-color: #dfe6e9;
+    color: #000;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-white:hover{
+  background-color: #dfe6e9;
+}
+.border-white{
+    border-color: #fff;
+}
+.border-white-opacity{
+    border-color: rgba(255,255,255,0.2);
+}
